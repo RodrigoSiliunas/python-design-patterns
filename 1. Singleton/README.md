@@ -17,4 +17,4 @@ Quando você necessita de somente uma instância da classe, por exemplo, a conex
 > 3. Método getInstance() é o principal ponto da classe. Ele verifica se a variável instance já foi iniciada, caso não tenha sido, ele faz sua criação pela primeira e única vez.
 > 4. Para fazer a conexão, devemos chamar o getInstance da seguinte forma: ClasseSingleton.getInstance().
 
-_Fonte_: _(Wikipedia)[https://pt.wikipedia.org/wiki/Singleton]_
+_Fonte_: _[Wikipedia](https://pt.wikipedia.org/wiki/Singleton)_
