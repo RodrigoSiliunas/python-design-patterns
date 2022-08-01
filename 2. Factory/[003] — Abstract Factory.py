@@ -122,7 +122,12 @@ if __name__ == '__main__':
     client_code(UIElementFactoryWindows(), 'Gerador de PDF',
                 'POST', 'Gerar PDF', 'Submit')
 
-    print("\n")
+    print('\n')
 
     print("Client: Testing the same client code with the second factory type:")
     client_code(UIElementFactoryLinux())
+
+    print('\n')
+
+    print("Client: Testing client code with the third factory type but the firt:")
+    client_code(UIElementFactoryWindows())
